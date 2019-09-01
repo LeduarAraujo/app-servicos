@@ -1,4 +1,5 @@
 export const Rotas = {
     home: '/home',
-    faq: '/faq'
+    faq: '/faq',
+    cadastro: '/cadastro'
 }

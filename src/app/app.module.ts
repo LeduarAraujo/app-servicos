@@ -10,13 +10,17 @@ import { TempRodComponent } from './template/temp-rod/temp-rod.component';
 
 // Componentes
 import { AppHomeComponent } from './components/app-home/app-home.component';
+import { AppFaqComponent } from './components/app-faq/app-faq.component';
+import { AppCadastroComponent } from './components/app-cadastro/app-cadastro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TempNavComponent,
     TempRodComponent,
-    AppHomeComponent
+    AppHomeComponent,
+    AppFaqComponent,
+    AppCadastroComponent
   ],
   imports: [
     BrowserModule,
