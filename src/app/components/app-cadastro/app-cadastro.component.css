@@ -1,0 +1,21 @@
+.divLoading {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    background-color: rgb(233, 227, 227);
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+ .centralizar {
+    position: absolute;
+    left: 50%; /*Posiciona na metade da tela, horizontalmente*/
+    top: 50%; /*Posiciona na metade da tela, verticalmente*/
+    margin: -25px -25px 0 0; /*Ajusta a centralização*/
+}
+
+.desligarLoading {
+    display: none;
+}
